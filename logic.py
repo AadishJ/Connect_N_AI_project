@@ -1,19 +1,4 @@
-"""
-connectn_simple_ai.py
----------------------
 
-Simple, readable, fast-enough Connect-N (6x7) AI
-using minimax with alpha-beta pruning.
-
-Features:
-- 6x7 board, connect-N (3..6)
-- Alpha-beta minimax
-- Basic evaluation heuristic
-- Adjustable depth
-- Clean class API (usable for frontends / Flask / etc.)
-
-Author: ChatGPT (for your AI project)
-"""
 
 import math
 import random

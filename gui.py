@@ -1,9 +1,4 @@
-"""
-connectn_gui.py
----------------
-Graphical interface for Connect-N AI
-(using Tkinter, requires connectn_simple_ai.py in same directory)
-"""
+
 
 import threading
 import tkinter as tk
@@ -13,8 +8,8 @@ from logic import ConnectN, PLAYER_X, PLAYER_O, EMPTY
 CELL_SIZE = 70
 BOARD_COLOR = "#1E88E5"
 EMPTY_COLOR = "#E3F2FD"
-BOT_COLOR = "#D32F2F"     # 🔴 red
-HUMAN_COLOR = "#FBC02D"   # 🟡 yellow
+BOT_COLOR = "#D32F2F"    
+HUMAN_COLOR = "#FBC02D"   
 
 
 class ConnectNGUI(tk.Tk):
